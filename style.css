@@ -259,3 +259,36 @@ button {
         width: 250px;
     }
 }
+
+
+.final-photo {
+    width: 170px;
+    height: 170px;
+
+    object-fit: cover;
+
+    border-radius: 22px;
+
+    margin: 5px auto 22px;
+
+    display: block;
+
+    box-shadow:
+        0 12px 30px rgba(180, 100, 120, 0.22);
+
+    opacity: 0;
+
+    animation: photoAppear 0.9s ease 0.3s forwards;
+}
+
+@keyframes photoAppear {
+    from {
+        opacity: 0;
+        transform: scale(0.75) rotate(-4deg);
+    }
+
+    to {
+        opacity: 1;
+        transform: scale(1) rotate(0);
+    }
+}
