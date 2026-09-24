@@ -1,115 +1,154 @@
-/* ==========================================
-   LANTERN WISHES
-========================================== */
-
 export const lanternWishes = [
 
     {
-        title: "Một điều nhỏ muốn nói ♡",
+        question:
+            "Bang chủ đầu tiên của THĐN là ai?",
+
+        options: [
+            "Leonnn",
+            "MinHo",
+            "zzHổzz",
+            "Sếp"
+        ],
+
+        correctIndex: 0,
+
+        title:
+            "Đúng rồi đó 🏮",
 
         message:
-            "Mong em luôn vui vẻ, bình an và gặp thật nhiều điều dịu dàng trong những ngày sắp tới.",
+            "🥮 Chúc anh em ăn bánh không béo, đánh boss không trượt!",
 
         image: "images/wish-01.jpg"
-        /*
-           Nếu muốn có ảnh:
-
-           image: "images/wish-01.jpg"
-
-           Nếu không:
-        */
-        // image: null
     },
 
 
     {
-        title: "Dưới ánh trăng này 🌙",
+        question:
+            "Tính đến mùa trung thu năm nay, có tất cả bao nhiêu môn phái?",
+
+        options: [
+            "18",
+            "19",
+            "20",
+            "21"
+        ],
+
+        correctIndex: 3,
+
+        title:
+            "Qua ải ✨",
 
         message:
-            "Chúc cho những ngày sau này, dù bận rộn hay mệt mỏi, chúng ta vẫn luôn có những khoảnh khắc bình yên bên nhau.",
+            "⚔️ Chúc toàn bang chiến lực tăng vù vù, đánh đâu thắng đó!",
+
         image: "images/wish-02.jpg"
-        // image: null
     },
 
 
     {
-        title: "Cảm ơn em 🏮",
+        question:
+            "Server đầu tiên của THĐN?",
+
+        options: [
+            "284",
+            "280",
+            "275",
+            "269"
+        ],
+
+        correctIndex: 1,
+
+        title:
+            "Biết ngay mà 🌙",
 
         message:
-            "Cảm ơn em vì đã xuất hiện và khiến những ngày rất bình thường cũng có thể trở thành những ngày đáng nhớ.",
+            "💰 Chúc mọi người loot đồ đỏ tay, mở rương toàn hàng ngon!",
 
         image: "images/wish-03.jpg"
-        // image: null
     },
 
 
     {
-        title: "Một lời chúc bé xíu ✨",
+        question:
+            "Tại mùa giải Vô song hào kiệt 2026, ở cụm chúng ta, bang hội nào đã vô địch?",
+
+        options: [
+            "Làm gì có câu trả lời nào khác"
+        ],
+
+        correctIndex: 0,
+
+        title:
+            "Chính xác ♡",
 
         message:
-            "Mong những điều em mong chờ sẽ từ từ trở thành hiện thực, và những điều làm em buồn sẽ nhẹ nhàng trôi qua.",
+            "❤️ Chúc bang hội luôn đoàn kết, lúc nào cũng đông vui như bây giờ.",
 
-        // image: null
         image: "images/wish-04.jpg"
     },
 
 
     {
-        title: "Điều anh mong nhất ♡",
+        question:
+            "Một vị hiền triết đã từng nói: 'Tôi chơi game không thích đứng thứ hai!' Đó là ai?",
+
+        options: [
+            "..."
+        ],
+
+        correctIndex: 0,
+
+        title:
+            "Vị đó đây 🏮",
 
         message:
-            "Anh chỉ mong em luôn khỏe mạnh, được yêu thương thật nhiều và vẫn có thể cười thật tươi như bây giờ.",
+            "🐉 Chúc anh em gặp boss là diệt, gặp event là hốt sạch!",
 
-        /*
-        Ví dụ sau này:
-
-        image: "images/wish-05.jpg"
-        */
-
-        // image: null
         image: "images/wish-05.jpg"
     },
 
 
+    /* ======================================
+       CÂU CUỐI ĐẶC BIỆT
+    ====================================== */
+
     {
-        title: "Chiếc đèn cuối cùng 🏮",
+        question:
+            "Ai xinh đẹp nhất bang này?",
+
+        options: [
+            "ANXinhĐẹp",
+            "Đáp án khác"
+        ],
+
+        correctIndex: 0,
+
+        runawayWrongAnswer: true,
+
+        title:
+            "Hihi biết mà 🏮",
 
         message:
-            "Nếu em đã tìm được chiếc đèn này thì gần như em đã nghe hết những điều anh muốn gửi trong đêm Trung Thu rồi đó.",
+            "🌕 Trăng tròn, bánh đầy, quà nhiều, bang ta ngày càng mạnh! 中秋快乐",
 
-        // image: null
-        image: "images/final.jpg"
+        image:
+            "images/wish-06.jpg"
     }
 
 ];
 
 
-/* ==========================================
-   FINAL LETTER
-========================================== */
-
 export const finalLetter = {
 
     title:
-        "Em đã tìm thấy tất cả rồi ♡",
+        "Chúc cả nhà đón trung thu vui vẻ ♡",
 
     message:
-        `Trung Thu này anh không chỉ muốn chúc em một ngày vui.
+        `Chúc toàn thể bang hội dù là đàn ông, phụ nữ hay bê đê, dù da trắng hay da đen, dù bóng thay thẳng, dù đã có gia đình hay bị bồ đá, chúc tất cả mọi người một mùa trung thu vui vẻ, ấm áp!
 
-Anh mong những mùa trăng sau này, dù chúng ta đang ở đâu, vẫn sẽ có những điều nhỏ bé để cùng nhau nhớ lại.
+Cảm ơn vì đã chịu khó chơi hết cái trò này :))`,
 
-Cảm ơn em vì đã đi qua từng chiếc đèn lồng, đọc từng lời anh giấu trong đó.
-
-Chúc em luôn bình an, luôn hạnh phúc và luôn được yêu thương thật nhiều.
-
-Trung Thu vui vẻ ♡`,
-
-    /*
-       Muốn ảnh cuối:
-
-       image: "images/final.jpg"
-    */
-
-    image: null
+    image: "images/final.JPG"
 
 };
